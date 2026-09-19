@@ -10,11 +10,12 @@ This project builds upon the circuit used in the previous Blinking LED project. 
 
 **Simulated circuit in Tinkercad:**
 
-<img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/03eabe4f-ccde-4227-8703-a07615b54df2" />
+<img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/6f88a8ba-87c6-42a5-a62a-629a1788f53f" />
+
+
 
 **Assembled circuit with the fading LED:**
 
-<img width="582" height="360" alt="IMG_8224" src="https://github.com/user-attachments/assets/e33ffa41-4404-48ed-b8db-db72a0f1c7ae" />
-
+<img width="582" height="360" alt="IMG_8224" src="https://github.com/user-attachments/assets/09f5278c-6a2d-4a1b-851d-1455ed908956" />
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
