@@ -1,6 +1,6 @@
 # 03 - Power on an LED when the button is pressed
 
-In this project I used a push button for powering on the LED. The LED powers on only if the button is being pressed.
+In this project, I used a push button to turn on an LED. The LED turns on only while the button is being pressed.
 
 **Requirements:**
 
