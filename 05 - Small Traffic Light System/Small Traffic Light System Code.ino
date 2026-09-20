@@ -8,16 +8,21 @@ void setup() {
   pinMode(red_led_pin, OUTPUT);
   pinMode(yellow_led_pin, OUTPUT);
   pinMode(green_led_pin, OUTPUT);
+
+  digitalWrite(green_led_pin, LOW);
+  digitalWrite(yellow_led_pin, LOW);
+  digitalWrite(red_led_pin, LOW);
 }
 
 void loop() {
   digitalWrite(green_led_pin, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(green_led_pin, LOW);
   digitalWrite(yellow_led_pin, HIGH);
   delay(1000);
   digitalWrite(yellow_led_pin, LOW);
   digitalWrite(red_led_pin, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(red_led_pin, LOW);
 }
+
