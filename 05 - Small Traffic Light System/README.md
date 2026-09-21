@@ -1,4 +1,4 @@
-# 03 - Small Traffic Light System
+# 05 - Small Traffic Light System
 
 In this project, I used three LEDs to create a small traffic light system. The LEDs turn on one at a time, following the sequence of a real traffic light.
 
