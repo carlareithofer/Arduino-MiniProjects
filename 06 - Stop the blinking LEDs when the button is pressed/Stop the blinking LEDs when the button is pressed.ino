@@ -30,13 +30,13 @@ void loop() {
       digitalWrite(green_led_pin, LOW);
       digitalWrite(yellow_led_pin, HIGH);
       digitalWrite(red_led_pin, LOW);
-      pattern == 3;
+      pattern = 3;
     }
     else if(pattern == 3){
       digitalWrite(green_led_pin, LOW);
       digitalWrite(yellow_led_pin, HIGH);
       digitalWrite(red_led_pin, LOW);
-      pattern == 1;
+      pattern = 1;
     }
     delay(300);
   }
