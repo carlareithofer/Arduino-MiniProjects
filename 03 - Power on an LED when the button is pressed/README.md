@@ -12,7 +12,7 @@ In this project, I used a push button to turn on an LED. The LED turns on only w
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/e2d2ef0c-a2d2-426e-bf25-d38fc776b6a6" />
 
-**Assembled circuit with the fading LED:**
+**Assembled circuit with the powered on LED:**
 
 <img width="582" height="360" alt="IMG_8224" src="https://github.com/user-attachments/assets/412be224-26a1-41f3-ac3e-012aa539f9d3" />
 
