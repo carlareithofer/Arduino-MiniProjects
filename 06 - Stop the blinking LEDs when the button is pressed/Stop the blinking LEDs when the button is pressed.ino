@@ -33,9 +33,9 @@ void loop() {
       pattern = 3;
     }
     else if(pattern == 3){
-      digitalWrite(green_led_pin, LOW);
-      digitalWrite(yellow_led_pin, HIGH);
-      digitalWrite(red_led_pin, LOW);
+      digitalWrite(green_led_pin, HIGH);
+      digitalWrite(yellow_led_pin, LOW);
+      digitalWrite(red_led_pin, HIGH);
       pattern = 1;
     }
     delay(300);
