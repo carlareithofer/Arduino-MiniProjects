@@ -2,7 +2,7 @@
 
 A button-controlled Arduino project where each button press changes the state of three LEDs, cycling through a set of predefined LED patterns.
 
-Improved: 
+Improved: The code was improved by organizing the LED control into separate functions and storing the LED pins in an array, making the program more structured, reusable, and easier to modify.
 
 **Requirements:**
 
