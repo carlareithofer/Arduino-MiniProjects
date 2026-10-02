@@ -14,12 +14,12 @@ byte ledpin[led_pin_array_size] =
           {red_led_pin, yellow_led_pin, green_led_pin};
 
 void ledpinmode(){
-  for(int i = 1; i <= 3; i++)
+  for(int i = 0; i < 3; i++)
     pinMode(ledpin[i], OUTPUT);
 }
 
 void ledpinstate(){
-  for(int i = 1; i <= 3; i++)
+  for(int i = 0; i < 3; i++)
     digitalWrite(ledpin[i], LOW);
 }
 
