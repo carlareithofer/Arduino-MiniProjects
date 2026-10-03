@@ -1,9 +1,6 @@
 # 10 - Multitask: LEDs + Potentiometer + Button
 
-A button-controlled Arduino project where each button press changes the state of three LEDs, cycling through a set of predefined LED patterns.
-
-Improved: The code was improved by organizing the LED control into separate functions and storing the LED pins in an array, making the program more structured, reusable, and easier to modify.
-
+A multi-input Arduino LED control project where each LED responds to a different input. The red LED blinks at a configurable interval set through the Serial Monitor, the yellow LED changes brightness based on a potentiometer, and the green LED is controlled by a push button.
 **Requirements:**
 
 <img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/a09a356c-4ac5-420b-ae3d-067a31ffedbe" />
