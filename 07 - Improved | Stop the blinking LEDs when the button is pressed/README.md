@@ -14,7 +14,7 @@ Improved: The code was improved by organizing the LED control into separate func
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/a49421b3-078c-4680-b7e6-8301238222d9" />
 
-**Assembled circuit with the powered on LED:**
+**Assembled circuit with the powered on LEDs:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/ac97c1d7-dece-415e-8912-a73b51169661" />
 
