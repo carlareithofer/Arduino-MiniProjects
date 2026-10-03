@@ -14,7 +14,7 @@ This project introduces digital outputs and timed delays to control the LEDs in 
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/5c846ebe-4b16-47ad-88ac-d2097cb9f955" />
 
-**Assembled circuit with the powered on LED:**
+**Assembled circuit with the LEDs powered on alternatively:**
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/3b9a7357-bb91-42af-bd67-4f694d70265a" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/c765b2fa-57e2-4cc5-b4d4-1070abd793be" />
