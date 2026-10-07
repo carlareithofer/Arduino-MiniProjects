@@ -19,7 +19,7 @@ void setup(){
   if(maxbrightness == 0) maxbrightness = 255;
 }
 
-void loop{
+void loop(){
   if(Serial.available()){
     int data = Serial.parseInt();
     if((data >= 0) && (data <= 255)){
