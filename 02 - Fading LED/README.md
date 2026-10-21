@@ -2,6 +2,8 @@
 
 This project builds upon the circuit used in the previous Blinking LED project. Instead of simply switching the LED on and off, I programmed it to gradually increase and decrease its brightness.
 
+Unlike the Blinking LED project, the LED is now connected to pin 11 instead of pin 12. This is because the `analogWrite()` function only works on PWM pins (marked with ~ on the Arduino Uno: 3, 5, 6, 9, 10, 11), and PWM is what allows the LED's brightness to change gradually.
+
 **Requirements:**
 
 <img width="465" height="165" alt="image" src="https://github.com/user-attachments/assets/99779690-8aa2-4612-b92e-e73d5393dd52" />
@@ -11,8 +13,6 @@ This project builds upon the circuit used in the previous Blinking LED project. 
 **Simulated circuit in Tinkercad:**
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/6f88a8ba-87c6-42a5-a62a-629a1788f53f" />
-
-
 
 **Assembled circuit with the fading LED:**
 
