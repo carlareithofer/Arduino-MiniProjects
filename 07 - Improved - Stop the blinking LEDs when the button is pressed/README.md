@@ -1,6 +1,6 @@
-# 07 - Improved | Stop the blinking LEDs when the button is pressed
+# 07 - Improved - Stop the blinking LEDs when the button is pressed
 
-A button-controlled Arduino project where each button press changes the state of three LEDs, cycling through a set of predefined LED patterns.
+In this project, three LEDs continuously cycle through a set of predefined patterns, changing every 300 ms. While the push button is pressed, the cycling stops and the LEDs remain frozen in their current pattern. When the button is released, the LEDs start cycling again.
 
 Improved: The code was improved by organizing the LED control into separate functions and storing the LED pins in an array, making the program more structured, reusable, and easier to modify.
 
@@ -17,8 +17,5 @@ Improved: The code was improved by organizing the LED control into separate func
 **Assembled circuit with the powered on LEDs:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/ac97c1d7-dece-415e-8912-a73b51169661" />
-
-
-
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
