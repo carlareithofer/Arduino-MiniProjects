@@ -1,10 +1,7 @@
-</> C++
-
 #include <IRremote.h>
 
 #define ir_receiver 12
 
-#define ir_button_0 22
 #define ir_button_1 12
 #define ir_button_2 24
 #define ir_button_3 94
@@ -31,10 +28,23 @@ void setup(){
 
 void loop(){
   if(IrReceiver.decode()){
+    // read the command before resuming, so the data isn't overwritten
+    int command = IrReceiver.decodedIRData.command;
     IrReceiver.resume();
 
-    int command = IrReceiver.decodedIRData.command;
+    Serial.print("Received command: ");
+    Serial.println(command);
 
+    switch(command){
+      case ir_button_1: digitalWrite(red_led, HIGH);    break;
+      case ir_button_2: digitalWrite(yellow_led, HIGH); break;
+      case ir_button_3: digitalWrite(green_led, HIGH);  break;
+      case ir_button_4: digitalWrite(red_led, LOW);     break;
+      case ir_button_5: digitalWrite(yellow_led, LOW);  break;
+      case ir_button_6: digitalWrite(green_led, LOW);   break;
+    }
+  }
+}
     if(command == ir_button_1)
       digitalWrite(red_led, HIGH);
 
