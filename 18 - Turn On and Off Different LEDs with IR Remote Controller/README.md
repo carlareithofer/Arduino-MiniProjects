@@ -20,6 +20,8 @@ An Arduino LED control system that uses an infrared receiver and a remote contro
 
 **Assembled circuit:**
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/7dd16817-de91-4ce2-a7b3-4458cdffb2a1" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/b2f37df7-faa6-496a-af04-58d8fd5161f9" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/1ed2cc4e-5935-4c31-87db-2d322f3246a3" />
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
