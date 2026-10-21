@@ -2,6 +2,8 @@
 
 An Arduino project that measures ambient light levels using a photoresistor and calculates the average luminosity across 100 samples. Measurements are collected every 50 ms, and the calculated average is displayed in the Serial Monitor.
 
+Since 100 samples are taken every 50 ms, a new average is displayed approximately every 5 seconds. Open the Serial Monitor at **115200** baud to see the results.
+
 **Requirements:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/367b5b60-31ea-4c00-9c37-7e93ac0ada1d" />
