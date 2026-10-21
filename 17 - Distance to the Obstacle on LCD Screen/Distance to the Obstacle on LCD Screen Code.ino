@@ -1,5 +1,3 @@
-</> C++
-
 #include <LiquidCrystal.h>
 
 #define echo_pin 3
@@ -13,7 +11,7 @@
 #define lcd_d6 7
 #define lcd_d7 8
 
-unsigned long lasttrigger = millis();
+unsigned long lasttrigger = 0;
 unsigned long triggerdelay = 60;
 
 volatile unsigned long pulseinbegin;
@@ -24,8 +22,6 @@ double lastdistance = 400.0;
 
 LiquidCrystal lcd(lcd_rs, lcd_e, lcd_d4, lcd_d5, lcd_d6, lcd_d7);
 
-int cursorLine = 0;
-
 void trigger(){
   digitalWrite(trigger_pin, LOW);
   delayMicroseconds(2);
@@ -35,6 +31,63 @@ void trigger(){
 }
 
 double getdistance(){
+  // copy the values with interrupts disabled, so they can't change while being read
+  noInterrupts();
+  unsigned long duration = pulseinend - pulseinbegin;
+  interrupts();
+
+  double distance = duration / 58.0;
+
+  // keep the last valid reading if the object is out of the sensor's range
+  if(distance > 400.0)
+    return lastdistance;
+
+  lastdistance = distance;
+  return distance;
+}
+
+void echopinint(){
+  if(digitalRead(echo_pin) == HIGH) pulseinbegin = micros();
+  else{
+    pulseinend = micros();
+    newdistance = true;
+  }
+}
+
+void printdistance(double distance){
+  lcd.setCursor(0, 1);
+  lcd.print("Dist: ");
+  lcd.print(distance, 1);   // one decimal is enough for this sensor
+  lcd.print(" cm   ");      // the spaces erase leftover digits from longer values
+}
+
+void setup(){
+  pinMode(echo_pin, INPUT);
+  pinMode(trigger_pin, OUTPUT);
+
+  lcd.begin(16, 2);
+  lcd.setCursor(0, 0);
+  lcd.print("Rate: ");
+  lcd.print(triggerdelay);
+  lcd.print(" ms.");
+
+  attachInterrupt(digitalPinToInterrupt(echo_pin), echopinint, CHANGE);
+}
+
+void loop(){
+  unsigned long timenow = millis();
+
+  if(timenow - lasttrigger > triggerdelay){
+    lasttrigger += triggerdelay;
+    trigger();
+  }
+
+  if(newdistance){
+    newdistance = false;
+    double distance = getdistance();
+    printdistance(distance);
+  }
+}double getdistance(){
   double duration = pulseinend - pulseinbegin;
   double distance = duration/58.0;
   if(distance > 400.0)
