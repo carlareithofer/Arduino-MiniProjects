@@ -12,13 +12,13 @@ A multi-input Arduino LED control project where each LED responds to a different
 
 <img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/a09a356c-4ac5-420b-ae3d-067a31ffedbe" />
 <br>
+* 10kOhm Potentiometer
+<br>
 <img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/26167e24-621f-4a0a-a633-26a1551edfae" />
 
 **Simulated circuit in Tinkercad:**
 
 <img width="511" height="340" alt="image" src="https://github.com/user-attachments/assets/7adcaa91-f951-4392-887f-44224fd8add0" />
-
-* 10kOhm Potentiometer
 
 **Assembled circuit with the powered on LEDs:**
 
