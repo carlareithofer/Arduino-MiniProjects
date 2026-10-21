@@ -13,6 +13,9 @@ An Arduino-based distance indicator that uses an ultrasonic sensor to measure th
 
 **Assembled circuit:**
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/2d60ff8e-700b-4bc1-8cda-905898444737" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/8935e75a-bd3a-4072-8fcc-0a060d88e8c4" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/a057a78b-8a23-4cc6-a6b5-05a553ec5e7c" />
+
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
