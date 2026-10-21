@@ -1,5 +1,3 @@
-</> C++
-
 #include <EEPROM.h>
 
 #define potentiometer A2
@@ -16,15 +14,21 @@ void setup(){
   pinMode(potentiometer, INPUT);
 
   maxbrightness = EEPROM.read(eeprom_address);
-  if(maxbrightness == 0) maxbrightness = 255;
 }
 
 void loop(){
   if(Serial.available()){
-    int data = Serial.parseInt();
-    if((data >= 0) && (data <= 255)){
-     EEPROM.write(eeprom_address, data);
-     maxbrightness = data;
+    String input = Serial.readStringUntil('\n');
+    input.trim();
+
+    if(input.length() > 0){
+      int data = input.toInt();
+      if((data >= 0) && (data <= 255)){
+        EEPROM.update(eeprom_address, data);
+        maxbrightness = data;
+        Serial.print("Maximum brightness saved: ");
+        Serial.println(maxbrightness);
+      }
     }
   }
 
@@ -33,5 +37,4 @@ void loop(){
   if(ledbrightness > maxbrightness)
     ledbrightness = maxbrightness;
   analogWrite(led, ledbrightness);
-  
 }
