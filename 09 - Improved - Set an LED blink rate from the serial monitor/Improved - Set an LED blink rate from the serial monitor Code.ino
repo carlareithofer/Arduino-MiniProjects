@@ -1,5 +1,3 @@
-</> C++
-
 #define led_pin 12
 
 unsigned long lastblink = millis();
@@ -27,7 +25,7 @@ void loop(){
     else led_state = LOW;
   
     digitalWrite(led_pin, led_state);
-    lastblink += sec;
+    lastblink == currenttime;
   }
   
   
