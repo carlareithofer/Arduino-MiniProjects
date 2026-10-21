@@ -1,5 +1,3 @@
-<\> C++
-
 #define button_pin 2
 #define led_pin 11
 
