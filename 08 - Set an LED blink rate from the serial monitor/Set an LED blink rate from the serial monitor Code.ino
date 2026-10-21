@@ -1,5 +1,3 @@
-</> C++
-
 #define led_pin 12
 
 int sec = 500;
