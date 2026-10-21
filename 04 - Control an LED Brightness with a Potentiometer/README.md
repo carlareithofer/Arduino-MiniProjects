@@ -4,6 +4,8 @@ In this project, I used a potentiometer to control the brightness of an LED. By 
 
 This project introduces analog input and PWM (Pulse Width Modulation) to control the LED's brightness.
 
+The potentiometer value is read with `analogRead()`, which returns a number between 0 and 1023. Since `analogWrite()` only accepts values between 0 and 255, the reading is divided by 4 before being used to set the LED brightness.
+
 **Requirements:**
 
 <img width="490" height="210" alt="image" src="https://github.com/user-attachments/assets/a005e329-da5e-4331-8d59-c2ca967b381f" />
@@ -13,5 +15,7 @@ This project introduces analog input and PWM (Pulse Width Modulation) to control
 **Simulated circuit in Tinkercad:**
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/e711b2b2-854c-49ea-b020-d2cb553ad256" />
+
+**Assembled circuit:**
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
