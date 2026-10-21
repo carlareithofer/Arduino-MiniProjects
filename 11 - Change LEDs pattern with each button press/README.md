@@ -2,6 +2,8 @@
 
 An Arduino LED control project combining independent blinking with button-controlled switching. The red LED blinks continuously at a fixed interval, while the yellow and green LEDs alternate between two states each time the push button is pressed. The project uses *millis()* for non-blocking timing and button state detection.
 
+The button is debounced in software: after a change in the button state is detected, the program ignores further changes for 50 ms. This prevents the mechanical "bouncing" of the button contacts from being read as multiple presses.
+
 **Requirements:**
 
 <img width="465" height="300" alt="image" src="https://github.com/user-attachments/assets/6ab1ac7e-31e7-44ee-85b0-1817d484117b" />
