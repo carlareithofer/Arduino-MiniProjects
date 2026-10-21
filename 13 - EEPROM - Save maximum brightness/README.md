@@ -1,7 +1,13 @@
-# 13 - EEPROM: Save the maximum brightness
+# 13 - EEPROM - Save the maximum brightness
 
 An Arduino LED brightness controller using a potentiometer and PWM. A maximum brightness limit can be set through the Serial Monitor and stored in the Arduino's EEPROM, allowing the setting to persist after restarting the board.
 
+**How to use it:**
+- Open the Serial Monitor and set the baud rate to **115200**.
+- Type a number between **0 and 255** and press Enter to set the maximum brightness. The value is saved in the EEPROM.
+- Turn the potentiometer: the LED brightness follows it, but never goes above the saved maximum.
+- Disconnect and reconnect the Arduino: the saved maximum is still applied.
+  
 **Requirements:**
 
 <img width="465" height="210" alt="image" src="https://github.com/user-attachments/assets/a005e329-da5e-4331-8d59-c2ca967b381f" />
