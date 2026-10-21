@@ -16,6 +16,8 @@ Since 100 samples are taken every 50 ms, a new average is displayed approximatel
 
 **Assembled circuit:**
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
+<img width="370" alt="image" src="https://github.com/user-attachments/assets/5e2d10e9-c8fb-4b5d-951e-57f775b6a782" />
+
+
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
