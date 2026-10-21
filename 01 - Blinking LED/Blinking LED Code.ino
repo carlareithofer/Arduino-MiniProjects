@@ -1,5 +1,3 @@
-</> C++ 
-
 void setup() {
   // set LED pin to output
   pinMode(12, OUTPUT);
