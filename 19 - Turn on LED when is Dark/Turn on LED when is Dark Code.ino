@@ -1,5 +1,3 @@
-</> C++
-
 #define photoresistor A0
 #define led 10
 
