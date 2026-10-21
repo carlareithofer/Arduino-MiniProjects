@@ -18,4 +18,8 @@ The potentiometer value is read with `analogRead()`, which returns a number betw
 
 **Assembled circuit:**
 
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/f9de6dbe-2a14-4e4b-b7dd-0c818273248f" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/fa0f9fe2-e4c7-415f-90ce-9633310a95e5" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/8edae096-bbf3-4204-bb54-342dea869ddb" />
+
 That’s it! I hope you found this project interesting, and thank you for following along! :)
