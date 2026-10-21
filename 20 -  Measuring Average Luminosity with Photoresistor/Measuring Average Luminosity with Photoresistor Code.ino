@@ -1,5 +1,3 @@
-</> C++
-
 #define photoresistor A0
 
 int lightsamples[100] = { 0 };
