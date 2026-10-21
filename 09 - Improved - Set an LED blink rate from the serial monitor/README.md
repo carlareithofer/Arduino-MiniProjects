@@ -1,9 +1,14 @@
-# 09 - Improved | Set an LED blink rate from the serial monitor
+# 09 - Improved - Set an LED blink rate from the serial monitor
 
-In this mini project, I used the same setup as in the first, second, and eighth projects. In the previous project, if the blink rate was changed while the program was 
+In this mini project, I used the same setup as in the first, and eighth projects. In the previous project, if the blink rate was changed while the program was 
 waiting in the *delay()* function, the new blink rate would only take effect at the end of the current cycle.
 
 In this improved version, I removed the *delay()* function and used a different approach to control the LED's blink rate, allowing the new value to take effect immediately.
+
+**How to use it:**
+- Open the Serial Monitor and set the baud rate to **115200**.
+- Type a number between **100 and 4000** and press Enter. This value (in milliseconds) sets how long the LED stays on and how long it stays off.
+- Values outside this range are ignored. The default value is 500 ms.
 
 **Requirements:**
 
