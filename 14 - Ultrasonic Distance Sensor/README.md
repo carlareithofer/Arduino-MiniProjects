@@ -10,7 +10,6 @@ The distance is calculated from the time it takes the ultrasonic pulse to travel
   
 **Requirements:**
 
-
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/3f8d8cb5-1805-4bbf-93eb-6eae8269ff0c" />
 
 **Simulated circuit in Tinkercad:**
@@ -19,6 +18,7 @@ The distance is calculated from the time it takes the ultrasonic pulse to travel
 
 **Assembled circuit:**
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a165c705-5f28-4a0a-a7fd-abf170442bf6" />
+
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
