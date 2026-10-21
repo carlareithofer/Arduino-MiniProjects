@@ -1,5 +1,3 @@
-</> C++
-
 #define led_pin 11
 #define potentiometer_pin A2
 
