@@ -1,5 +1,3 @@
-</> C++
-
 #define echo_pin 3
 #define trigger_pin 4
 
