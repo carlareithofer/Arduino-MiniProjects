@@ -2,6 +2,8 @@
 
 In this project, I used a push button to turn on an LED. The LED turns on only while the button is being pressed.
 
+The 10 kΩ resistor is used as a pull-down resistor: it keeps the button pin at LOW (0 V) while the button is not pressed. Without it, the pin would be "floating" and could randomly read HIGH or LOW, making the LED flicker on its own.
+
 **Requirements:**
 
 <img width="465" height="200" alt="image" src="https://github.com/user-attachments/assets/a9015fdd-c404-4655-a1a9-2aafb8958cf6" />
