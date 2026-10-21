@@ -1,5 +1,3 @@
-<\> C++
-
 #define red_led_pin 11
 #define yellow_led_pin 10
 #define green_led_pin 9
@@ -14,12 +12,12 @@ byte ledpin[led_pin_array_size] =
           {red_led_pin, yellow_led_pin, green_led_pin};
 
 void ledpinmode(){
-  for(int i = 0; i < 3; i++)
+  for(int i = 0; i < led_pin_array_size; i++)
     pinMode(ledpin[i], OUTPUT);
 }
 
 void ledpinstate(){
-  for(int i = 0; i < 3; i++)
+  for(int i = 0; i < led_pin_array_size; i++)
     digitalWrite(ledpin[i], LOW);
 }
 
