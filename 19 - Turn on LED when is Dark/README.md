@@ -15,6 +15,8 @@ An Arduino-based automatic lighting system that uses a photoresistor to detect a
 
 **Assembled circuit:**
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/5338ceb3-49cc-41cd-a11d-09588a550a3f" />
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/99561594-c008-4577-b53c-21102e8acb53" />
+
 
 That’s it! I hope you found this project interesting, and thank you for following along! :)
