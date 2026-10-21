@@ -1,9 +1,7 @@
-</> C++
-
 #define echo_pin 3
 #define trigger_pin 4
 
-unsigned long lasttrigger = millis();
+unsigned long lasttrigger = 0;
 unsigned long triggerdelay = 100;
 
 void trigger(){
@@ -15,18 +13,12 @@ void trigger(){
 }
 
 double getdistance(){
-  unsigned long begin = micros();
-  double duration = pulseIn(echo_pin, HIGH);
-  unsigned long end = micros();
+  unsigned long duration = pulseIn(echo_pin, HIGH, 25000);
+  if(duration == 0) return -1;   
 
-  unsigned long codeduration = end - begin;
-
-  Serial.print("Duration : ");
-  Serial.println(codeduration);
-
-  double distance = duration/58.0;
-  return distance;
+  return duration / 58.0;
 }
+
 void setup(){
   Serial.begin(115200);
   pinMode(echo_pin, INPUT);
@@ -35,6 +27,21 @@ void setup(){
 
 void loop(){
   unsigned long timenow = millis();
+
+  if(timenow - lasttrigger > triggerdelay){
+    lasttrigger = timenow;
+    trigger();
+
+    double distance = getdistance();
+    if(distance < 0)
+      Serial.println("Out of range");
+    else{
+      Serial.print("Distance: ");
+      Serial.print(distance);
+      Serial.println(" cm");
+    }
+  }
+}  unsigned long timenow = millis();
 
   if(timenow - lasttrigger > triggerdelay){
     lasttrigger += triggerdelay;
