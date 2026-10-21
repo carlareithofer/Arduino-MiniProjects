@@ -18,4 +18,8 @@ An Arduino LED brightness controller using a potentiometer and PWM. A maximum br
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/e711b2b2-854c-49ea-b020-d2cb553ad256" />
 
+**Assembled circuit**
+
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/eebb5960-e953-4003-b2c5-9c449ed2f0ee" />
+
 That’s it! I hope you found this project interesting, and thank you for following along! :)
