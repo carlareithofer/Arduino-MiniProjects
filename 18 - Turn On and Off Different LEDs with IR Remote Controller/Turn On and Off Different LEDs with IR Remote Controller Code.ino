@@ -45,22 +45,4 @@ void loop(){
     }
   }
 }
-    if(command == ir_button_1)
-      digitalWrite(red_led, HIGH);
-
-    if(command == ir_button_2)
-      digitalWrite(yellow_led, HIGH);
-
-    if(command == ir_button_3)
-      digitalWrite(green_led, HIGH);
-
-    if(command == ir_button_4)
-      digitalWrite(red_led, LOW);
-
-    if(command == ir_button_5)
-      digitalWrite(yellow_led, LOW);
-
-    if(command == ir_button_6)
-      digitalWrite(green_led, LOW);
-  }
-}
+    
