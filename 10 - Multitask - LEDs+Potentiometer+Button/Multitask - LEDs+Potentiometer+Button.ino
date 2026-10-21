@@ -1,5 +1,3 @@
-</> C++
-
 #define red_led 11
 #define yellow_led 10
 #define green_led 9
@@ -50,7 +48,7 @@ void actionled1(){
     else led_state = LOW;
   
     digitalWrite(red_led, led_state);
-    lastblink += sec;
+      lastblink = currenttime;
   }
 }
 
