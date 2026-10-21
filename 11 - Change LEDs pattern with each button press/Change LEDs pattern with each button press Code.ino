@@ -1,5 +1,3 @@
-</> C++
-
 #define red_led 11
 #define yellow_led 10
 #define green_led 9
@@ -10,7 +8,7 @@ unsigned long lastblink = millis();
 unsigned long blinkrate = 1000;
 
 unsigned long lastchanged = millis();
-unsigned long milisec = 50;
+unsigned long debouncedelay = 50;
 
 unsigned long currenttime = millis();
 
@@ -45,17 +43,17 @@ void setup(){
 }
 
 void actionled1(){
-  if(currenttime - lastblink > 1000){
+  if(currenttime - lastblink > blinkrate){
     if(led_state == LOW) led_state = HIGH;
     else led_state = LOW;
   
     digitalWrite(red_led, led_state);
-    lastblink += 1000;
+    lastblink += blinkrate;
   }
 }
 
 void actionleds2and3(){
-  if(currenttime - lastchanged > milisec){
+  if(currenttime - lastchanged > debouncedelay){
     byte buttonstate = digitalRead(button);
     if(buttonstate != lastbuttonstate){
 
