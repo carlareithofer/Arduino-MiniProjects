@@ -1,5 +1,3 @@
-</> C++
-
 #define button 2
 
 int cnt = 0;
