@@ -12,7 +12,7 @@ A multi-input Arduino LED control project where each LED responds to a different
 
 <img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/a09a356c-4ac5-420b-ae3d-067a31ffedbe" />
 <br>
-* 10kOhm Potentiometer
+* 10kOhm Potentiometer not 250k
 <br>
 <img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/26167e24-621f-4a0a-a633-26a1551edfae" />
 
