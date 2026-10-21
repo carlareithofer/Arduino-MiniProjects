@@ -1,5 +1,3 @@
-</> C++
-
 #define red_led_pin 11
 #define yellow_led_pin 10
 #define green_led_pin 9
