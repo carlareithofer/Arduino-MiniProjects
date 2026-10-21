@@ -1,5 +1,3 @@
-</> C++
-
 #include <LiquidCrystal.h>
 
 #define lcd_rs A5
@@ -40,5 +38,10 @@ void loop(){
   if(Serial.available() > 0){
     String text = Serial.readString();
     printtextlcd(text);
+    text.trim();   
+
+    if(text.length() > 0)
+      printtextlcd(text);
+
   }
 }
