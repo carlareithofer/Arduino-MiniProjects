@@ -11,7 +11,8 @@ The sensor is triggered every 60 ms, which is the minimum interval recommended f
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/452725a5-0621-4711-bf71-8b2dcdbfbbf2" />
 <br>
-<img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/0657aacb-f797-4963-ad3a-0f3c80b95b88" />
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/12eed25d-1782-4e8e-9fc4-9986006770ae" />
+
 
 **Simulated circuit in Tinkercad:**
 
