@@ -25,7 +25,7 @@ void loop(){
     else led_state = LOW;
   
     digitalWrite(led_pin, led_state);
-    lastblink == currenttime;
+    lastblink = currenttime;
   }
   
   
