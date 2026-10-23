@@ -5,9 +5,9 @@ An Arduino-based automatic lighting system that uses a photoresistor to detect a
 **Requirements:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/bc1c295c-90a8-480c-976f-184860b3b2bf" />
-
 <br>
-<img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/0657aacb-f797-4963-ad3a-0f3c80b95b88" />
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/632b7c38-1eeb-44e6-ba6b-fb9df6febbf5" />
+
 
 **Simulated circuit in Tinkercad:**
 
