@@ -12,7 +12,7 @@ An Arduino LED control system that uses an infrared receiver and a remote contro
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/993feea5-500c-4a50-9742-f58a1d17d7f6" />
 <br>
-<img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/0657aacb-f797-4963-ad3a-0f3c80b95b88" />
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/d8e51c26-e5d7-4e70-8183-271b0c9863f3" />
 
 **Simulated circuit in Tinkercad:**
 
