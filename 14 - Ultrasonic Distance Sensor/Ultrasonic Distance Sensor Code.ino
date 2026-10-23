@@ -41,11 +41,4 @@ void loop(){
       Serial.println(" cm");
     }
   }
-}  unsigned long timenow = millis();
-
-  if(timenow - lasttrigger > triggerdelay){
-    lasttrigger += triggerdelay;
-    trigger();
-    Serial.println(getdistance());
-  }
-}
+}  
