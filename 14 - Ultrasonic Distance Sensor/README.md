@@ -11,6 +11,8 @@ The distance is calculated from the time it takes the ultrasonic pulse to travel
 **Requirements:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/3f8d8cb5-1805-4bbf-93eb-6eae8269ff0c" />
+<br>
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/9368c3b7-d9d0-4608-8eff-b5223e3466b7" />
 
 **Simulated circuit in Tinkercad:**
 
