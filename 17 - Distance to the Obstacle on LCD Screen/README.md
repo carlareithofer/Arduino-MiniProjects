@@ -18,8 +18,4 @@ The sensor is triggered every 60 ms, which is the minimum interval recommended f
 
 <img width="511" height="321" alt="image" src="https://github.com/user-attachments/assets/2ceee282-bce6-4d53-a906-f1808fb23386" />
 
-**Assembled circuit:**
-
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/155eee31-38f3-418c-85bd-2825247b0b46" />
-
 That’s it! I hope you found this project interesting, and thank you for following along! :)
