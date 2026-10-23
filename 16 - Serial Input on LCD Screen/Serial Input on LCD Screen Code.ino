@@ -37,8 +37,8 @@ void setup(){
 void loop(){
   if(Serial.available() > 0){
     String text = Serial.readString();
-    printtextlcd(text);
-    text.trim();   
+    text.trim(); 
+    printtextlcd(text);  
 
     if(text.length() > 0)
       printtextlcd(text);
