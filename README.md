@@ -38,7 +38,7 @@ I hope you find them useful, and good luck with your own Arduino journey!
 | 18 | [Turn On and Off Different LEDs with IR Remote Controller](18%20-%20Turn%20On%20and%20Off%20Different%20LEDs%20with%20IR%20Remote%20Controller) |
 | 19 | [Turn on LED when it's Dark](19%20-%20Turn%20on%20LED%20when%20is%20Dark) |
 | 20 | [Measuring Average Luminosity with Photoresistor](20%20-%20%20Measuring%20Average%20Luminosity%20with%20Photoresistor) |
-| ⭐ | [**Capstone Project: Smart Desk**](CapstoneProject) |
+| ⭐ | [**Capstone Project: Smart Desk Station**](CapstoneProject) |
 
 ### Necessary Components 
 
