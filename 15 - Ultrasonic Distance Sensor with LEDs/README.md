@@ -5,11 +5,12 @@ An Arduino-based distance indicator that uses an ultrasonic sensor to measure th
 **Requirements:**
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/d5e293d8-8aee-4182-9611-b2095d929704" />
+<br>
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/04782189-fd69-4f6b-8ac8-cf70994fdf69" />
 
 **Simulated circuit in Tinkercad:**
 
 <img width="465" height="350" alt="image" src="https://github.com/user-attachments/assets/8768e4b3-688a-4a78-b731-aa056218d8dd"/>
-
 
 **Assembled circuit:**
 
