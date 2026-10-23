@@ -5,7 +5,7 @@ An Arduino LED control system that uses an infrared receiver and a remote contro
 **Required library:** IRremote (version 3.0 or newer), installed from the Arduino IDE Library Manager.
 
 **How to use it:**
-- Point the remote at the IR receiver and press the buttons from the table above.
+- Point the remote at the IR receiver and press the selected buttons (in my case, 1, 2, 3, 4, 5, 6).
 - The command codes depend on the remote control. If your remote doesn't work, open the Serial Monitor at **115200** baud, press each button, and replace the codes in the `#define` lines with the ones displayed.
   
 **Requirements:**
