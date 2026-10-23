@@ -8,7 +8,7 @@ Since 100 samples are taken every 50 ms, a new average is displayed approximatel
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/367b5b60-31ea-4c00-9c37-7e93ac0ada1d" />
 <br>
-<img width="465" height="320" alt="image" src="https://github.com/user-attachments/assets/0657aacb-f797-4963-ad3a-0f3c80b95b88" />
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/0f4f931d-9b14-4cf2-a4be-987f8f17d3cd" />
 
 **Simulated circuit in Tinkercad:**
 
